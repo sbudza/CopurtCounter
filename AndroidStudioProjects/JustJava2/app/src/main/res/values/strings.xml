@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="topping_choc">Chocolate</string>
+    <string name="topping_cream">Whipped Cream</string>
+</resources>

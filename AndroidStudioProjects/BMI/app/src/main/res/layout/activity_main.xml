@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.bmi.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:textColor="#0d47a1"
+        android:textSize="40sp"/>
+
+    <EditText
+
+        android:id="@+id/edt_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Height"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your weight below"
+        android:textColor="#0d47a1"
+        android:textSize="20sp"/>
+    <RadioGroup
+
+        android:id="@+id/rgp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+
+            android:id="@+id/rdb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f50057"
+            android:text="20 to 50"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+
+            android:id="@+id/rdb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f50057"
+            android:text="51 to 60"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+
+            android:id="@+id/rdb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f50057"
+            android:text="61 to 70"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+
+            android:id="@+id/rdb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f50057"
+            android:text="71 to 80"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+
+            android:id="@+id/rdb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f50057"
+            android:text="81 to 90"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+
+            android:id="@+id/rdb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f50057"
+            android:text="91 to 100"
+            android:onClick="onRadioButtonClicked"/>
+
+
+    </RadioGroup>
+
+</LinearLayout>

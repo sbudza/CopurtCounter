@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizzapp1.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/app2" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Welcome To Quizz App!"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black">
+
+        <Button
+
+            android:text="Politics"
+            android:id="@+id/politics_btn_view"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"/>
+
+        <Button
+
+            android:text="Sports"
+            android:id="@+id/sports_btn_view"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/politics_btn_view"
+            android:background="@android:color/black"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+           android:paddingRight="@dimen/activity_vertical_margin"/>
+
+        <Button
+
+            android:text="Business"
+            android:id="@+id/business_btn_view"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sports_btn_view"
+            android:background="@android:color/black"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"/>
+
+        <Button
+
+            android:text="Animals"
+            android:id="@+id/animal_btn_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/business_btn_view"
+            android:background="@android:color/black"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_purple"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
